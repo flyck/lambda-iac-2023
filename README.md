@@ -1,7 +1,7 @@
 # Is terraform + bun = bae?
 
-After the endless CDK hype the release of bun 1.0 ignite a new need for speed. As the CDK DX is
-lackluster witH:
+After the endless CDK hype, the release of bun 1.0 ignited a new need for speed. As the CDK DX is
+lackluster with:
 - v1 v2 migration and weird packaging / versioning
 - lacking local execution without hot reloading (sam local cannot do it and is super slow)
 - all sorts of work-arounds "one shoud know" for CDK specifics, like async lambda building and
@@ -22,5 +22,5 @@ Candidates:
 - CDK
 - serverless framework
 - sst
-- (wing)[https://github.com/winglang/wing]
+- [wing](https://github.com/winglang/wing)
 - ?
