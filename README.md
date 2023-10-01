@@ -34,3 +34,4 @@ Candidates:
 - First Deployment time
 - Code update deployment time
 - Config Change deployment time
+- Bun readyness: zip / build
