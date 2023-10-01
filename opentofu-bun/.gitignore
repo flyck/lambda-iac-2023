@@ -1,0 +1,7 @@
+
+.terraform*
+.terraform
+
+lambda_function_payload.zip
+
+tofu

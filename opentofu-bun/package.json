@@ -1,0 +1,14 @@
+{
+  "name": "opentofu-bun",
+  "version": "1.0.0",
+  "description": "How fast is bun with terraform?",
+  "main": "main.tf",
+  "scripts": {
+    "build": "cd lambda; bun run build",
+    "plan": "npm run build && ./tofu plan",
+    "deploy": "npm run build && ./tofu apply -auto-approve",
+    "destroy": "tofu destroy"
+  },
+  "author": "",
+  "license": "ISC"
+}
