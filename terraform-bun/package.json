@@ -1,0 +1,13 @@
+{
+  "name": "terraform-bun",
+  "version": "1.0.0",
+  "main": "main.tf",
+  "scripts": {
+    "build": "cd lambda; bun run build",
+    "plan": "npm run build && terraform plan",
+    "deploy": "npm run build && terraform apply -auto-approve",
+    "destroy": "terraform destroy"
+  },
+  "author": "",
+  "license": "ISC"
+}
