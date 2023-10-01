@@ -3,7 +3,7 @@
 After the endless CDK hype, the release of bun 1.0 ignited a new need for speed. As the CDK DX is
 lackluster with:
 - v1 v2 migration and weird packaging / versioning
-- lacking local execution without hot reloading (sam local cannot do it and is super slow)
+- slow local execution that lacks hot-reloading (sam local cannot do it, is slow and clunky)
 - all sorts of work-arounds "one shoud know" for CDK specifics, like async lambda building and
   proper error handling in case of failure
 - slow speed of deployments with the CDK as it uses Cloudformation under the hood. an extensive
