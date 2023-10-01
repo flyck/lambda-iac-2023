@@ -24,3 +24,13 @@ Candidates:
 - sst
 - [wing](https://github.com/winglang/wing)
 - ?
+
+## Comparison
+
+- Init time (time to establish basics for working)
+- Feature matrix
+  - local execution,
+  - local hot reloading,
+- First Deployment time
+- Code update deployment time
+- Config Change deployment time
