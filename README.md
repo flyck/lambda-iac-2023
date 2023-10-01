@@ -17,8 +17,8 @@ terraform which might make a switch to opentofu necessary in the future.
 
 
 Candidates:
-- terraform
-- opentofu
+- ✅ terraform
+- ✅ opentofu
 - CDK
 - serverless framework
 - sst
