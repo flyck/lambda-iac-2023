@@ -1,0 +1,14 @@
+{
+  "name": "winglang",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "wing": "wing",
+    "compile": "wing compile --target tf-aws main.w",
+    "deploy": "cd target/main.tfaws; terraform init && terraform apply"
+  },
+  "dependencies": {
+    "winglang": "^0.41.0"
+  }
+}
