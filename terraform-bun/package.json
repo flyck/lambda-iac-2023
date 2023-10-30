@@ -6,6 +6,7 @@
     "build": "cd lambda; bun run build",
     "plan": "npm run build && terraform plan",
     "deploy": "npm run build && terraform apply -auto-approve",
+    "deploy:dirty": "npm run build && terraform apply -auto-approve -lock=false",
     "destroy": "terraform destroy"
   },
   "author": "",
