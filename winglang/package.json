@@ -9,6 +9,7 @@
     "deploy": "cd target/main.tfaws; terraform init && terraform apply"
   },
   "dependencies": {
-    "winglang": "^0.41.0"
+    "aws-cdk-lib": "^2.103.1",
+    "winglang": "0.41.39"
   }
 }
