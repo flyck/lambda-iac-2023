@@ -1,0 +1,24 @@
+service: iac-2023-serverless-bun
+
+frameworkVersion: "3"
+
+package:
+  artifact: ../hello-world/bundle.zip
+
+provider:
+  name: aws
+  region: eu-central-1
+  runtime: provided.al2
+  architecture: arm64
+
+  stackTags:
+    repository: https://github.com/flyck/lambda-iac-2023
+
+plugins:
+  - serverless-offline
+
+functions:
+  lambda:
+    handler: dist/bundle.handler
+    layers:
+      - 'arn:aws:lambda:eu-central-1:304046647655:layer:bun:1'
